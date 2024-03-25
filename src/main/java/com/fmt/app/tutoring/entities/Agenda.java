@@ -2,16 +2,12 @@ package com.fmt.app.tutoring.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fmt.app.tutoring.enums.StatusAgendamento;
-import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
-import lombok.AccessLevel;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.Setter;
 import org.hibernate.annotations.DynamicUpdate;
 
 import java.time.LocalDateTime;
-import java.util.Collection;
 import java.util.List;
 
 @Data

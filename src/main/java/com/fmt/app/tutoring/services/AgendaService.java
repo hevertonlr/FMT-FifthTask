@@ -3,8 +3,6 @@ package com.fmt.app.tutoring.services;
 import com.fmt.app.tutoring.entities.Agenda;
 import com.fmt.app.tutoring.entities.Aluno;
 import com.fmt.app.tutoring.entities.Tutor;
-import com.fmt.app.tutoring.interfaces.IGenericRepository;
-import com.fmt.app.tutoring.interfaces.IGenericService;
 import com.fmt.app.tutoring.repositories.AgendaRepository;
 import org.springframework.stereotype.Service;
 

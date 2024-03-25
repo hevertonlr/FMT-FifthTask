@@ -6,9 +6,6 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.hibernate.annotations.DynamicUpdate;
 
-import java.util.List;
-
-
 @Data
 @Entity
 @DynamicUpdate

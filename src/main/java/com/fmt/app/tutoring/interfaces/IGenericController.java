@@ -2,7 +2,6 @@ package com.fmt.app.tutoring.interfaces;
 
 import com.fmt.app.tutoring.entities.GenericEntity;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
