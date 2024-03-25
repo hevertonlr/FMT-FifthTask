@@ -7,7 +7,6 @@ import com.fmt.app.tutoring.interfaces.IGenericService;
 import org.springframework.stereotype.Service;
 
 import java.lang.reflect.ParameterizedType;
-import java.lang.reflect.Type;
 import java.util.List;
 
 @Service
@@ -18,7 +17,7 @@ public abstract class GenericService<T extends GenericEntity> implements IGeneri
     public GenericService(IGenericRepository<T> repository) {
         this.repository = repository;
         ParameterizedType type =(ParameterizedType)getClass().getGenericSuperclass();
-        this.entityName = ((Class) type.getActualTypeArguments()[0]).getSimpleName();
+        this.entityName = ((Class<?>) type.getActualTypeArguments()[0]).getSimpleName();
     }
 
     @Override
